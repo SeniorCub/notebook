@@ -8,7 +8,7 @@ dotenv.config();
 app.use(express.json())
 app.use("/", express.static(path.join(process.cwd(), "/public")))
 
-const PORT = (process.env.PORT || 1010 );
+const PORT = (process.env.PORT || 1111 );
 app.listen(PORT, ()=>{
      console.log(`Server running on http://localhost:${PORT}`);
 })
